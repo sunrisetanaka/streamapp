@@ -44,7 +44,7 @@ toshidict={
 def main():
     st.title("Kion-Stream(全国版)")
     st.write("今日の気温を予測します")
-    selected_item=st.selectbox("地点を選択",["地点を選択","京都","東京","大阪","名古屋","広島","札幌","仙台","金沢","高知","熊本","新潟"])
+    selected_item=st.selectbox("地点を選択",["地点を選択","京都","東京","大阪","名古屋","広島","札幌","仙台","金沢","高知","熊本","新潟","那覇"])
     if selected_item!="地点を選択":
         app(selected_item)
     
